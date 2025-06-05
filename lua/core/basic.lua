@@ -27,6 +27,9 @@ vim.opt.hlsearch = false
 -- 隐藏模式显示
 vim.opt.showmode = false
 
+-- 共享粘贴板
+vim.o.clipboard = "unnamedplus"
+
 vim.env.HTTP_PROXY = "http://127.0.0.1:7897"
 vim.env.HTTPS_PROXY = "http://127.0.0.1:7897"
 
