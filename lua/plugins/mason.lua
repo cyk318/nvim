@@ -33,6 +33,8 @@ return {
                 }
             },
             pyright = {},
+            ["kotlin-language-server"] = {},
+            ["jdtls"] = {},
             ["html-lsp"] = {},
             ["css-lsp"] = {},
             ["typescript-language-server"] = {},
