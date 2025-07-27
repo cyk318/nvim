@@ -4,7 +4,7 @@ return {
         "nvim-tree/nvim-web-devicons",
     },
     keys = {
-        { "<A-1>", ":NvimTreeToggle<CR>" }
+        { "<leader>t", ":NvimTreeToggle<CR>" }
     },
     opts = {},
     lazy = false,

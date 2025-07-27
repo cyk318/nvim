@@ -3,7 +3,7 @@ return {
     event = "VeryLazy",
     dependencies = {
         "neovim/nvim-lspconfig",
-        "mason-org/mason-lspconfig"
+        "williamboman/mason-lspconfig.nvim"
     },
     opts = {},
     config = function (_, opts)
