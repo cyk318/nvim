@@ -1,0 +1,7 @@
+-- 浏览器中任意输入框下使用 nvim
+-- 目前谷歌浏览器不允许下载此插件，issues
+return {
+    'glacambre/firenvim',
+    build = ":call firenvim#install(0)"
+}
+
