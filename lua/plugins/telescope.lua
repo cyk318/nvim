@@ -10,7 +10,7 @@ return {
         },
     },
     keys = {
-        { "<leader>ff", "<Cmd>Telescope live_grep<CR>" }
+        { "<leader>f", "<Cmd>Telescope live_grep<CR>" }
     },
     opts = {
         extensions = {
