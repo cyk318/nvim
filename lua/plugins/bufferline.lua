@@ -29,7 +29,7 @@ return {
         { "<leader>bn", ":BufferLineCycleNext<CR>", silent = true },
         { "<leader>bo", ":BufferLineCloseOthers<CR>", silent = true },
         { "<leader>bp", ":BufferLineCyclePrev<CR>", silent = true },
-        { "<leader>bd", ":bdelete<CR>", silent = true },
+        { "<leader>q", ":bdelete<CR>", silent = true },
         { "<leader>bh", ":BufferLinePick<CR>", silent = true },
     },
     lazy = false
