@@ -1,4 +1,5 @@
 require("core.basic")
 require("core.keymap")
+require("core.autocmds")
 require("core.neovide")
 require("core.lazy")

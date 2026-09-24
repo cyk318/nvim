@@ -13,19 +13,19 @@ return {
     -- 快捷键绑定
     keys = {
         -- 重命名
-        { "<leader>lr", "<Cmd>Lspsaga rename<CR>" },
+        { "<leader>lr", "<Cmd>Lspsaga rename<CR>", desc = "重命名" },
         -- 寻找变量引用
-        { "<leader>lf", "<Cmd>Lspsaga finder<CR>" },
+        { "<leader>lf", "<Cmd>Lspsaga finder<CR>", desc = "查找定义与引用" },
         -- 跳转变量、函数定义
-        { "<leader>ld", "<Cmd>Lspsaga goto_definition<CR>" },
+        { "<leader>ld", "<Cmd>Lspsaga goto_definition<CR>", desc = "跳转定义" },
         -- 显示帮助文档
-        { "<leader>lh", "<Cmd>Lspsaga hover_doc<CR>" },
+        { "<leader>lh", "<Cmd>Lspsaga hover_doc<CR>", desc = "悬浮文档" },
         -- 针对错误，警告代码提供快速修改
-        { "<leader>lc", "<Cmd>Lspsaga code_action<CR>" },
+        { "<leader>lc", "<Cmd>Lspsaga code_action<CR>", desc = "代码操作" },
         -- 跳转到下一个警告
-        { "<leader>ln", "<Cmd>Lspsaga diagnostic_jump_next<CR>" },
+        { "<leader>ln", "<Cmd>Lspsaga diagnostic_jump_next<CR>", desc = "下一个诊断" },
         -- 跳转到上一个警告
-        { "<leader>lp", "<Cmd>Lspsaga diagnostic_jump_prev<CR>" },
+        { "<leader>lp", "<Cmd>Lspsaga diagnostic_jump_prev<CR>", desc = "上一个诊断" },
     }
 }
 

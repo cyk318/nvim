@@ -26,11 +26,11 @@ return {
         }
     },
     keys = {
-        { "<leader>bn", ":BufferLineCycleNext<CR>", silent = true },
-        { "<leader>bo", ":BufferLineCloseOthers<CR>", silent = true },
-        { "<leader>bp", ":BufferLineCyclePrev<CR>", silent = true },
-        { "<leader>q", ":bdelete<CR>", silent = true },
-        { "<leader>bh", ":BufferLinePick<CR>", silent = true },
+        { "<leader>bn", ":BufferLineCycleNext<CR>", silent = true, desc = "下一个缓冲区" },
+        { "<leader>bo", ":BufferLineCloseOthers<CR>", silent = true, desc = "关闭其他缓冲区" },
+        { "<leader>bp", ":BufferLineCyclePrev<CR>", silent = true, desc = "上一个缓冲区" },
+        { "<leader>q", ":bdelete<CR>", silent = true, desc = "关闭当前缓冲区" },
+        { "<leader>bh", ":BufferLinePick<CR>", silent = true, desc = "选择缓冲区" },
     },
     lazy = false
 }

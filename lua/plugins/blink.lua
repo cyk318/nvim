@@ -1,7 +1,7 @@
 return {
     "saghen/blink.cmp",
     -- version 不设置会报错，并且设置 version 后他还需要额外下载一些东西
-    version = "*",
+    version = "v0.14.2",
     dependencies = {
         -- 代码模板，例如 IDEA 中输入 main 并回车，就会自动生成 `public static void main ...`
         "rafamadriz/friendly-snippets",
