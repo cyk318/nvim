@@ -24,9 +24,23 @@
 | 空格 lF | 手动 LSP 格式化，要求语言服务器支持 |
 | ]h / [h | 下一个 / 上一个 Git 修改块 |
 | 空格 gp / gb / gd | 预览修改 / 当前行来源 / Git 对比 |
+| 空格 gD / gs | Diffview 项目差异 / 已暂存差异 |
+| 空格 gh / gH / gq | 当前文件历史 / 项目历史 / 关闭 Diffview |
 | 空格 ? / sk | 查看快捷键 / 搜索快捷键 |
 
 启用持久撤销、恢复上次光标位置、复制高亮和窗口重获焦点时检查外部文件修改。诊断在退出插入模式后更新。格式化由快捷键手动触发。
+
+## 查看 Git 差异
+
+在 Git 项目中按 `空格 gD` 打开 Diffview，左侧列出修改文件，右侧并排显示差异；`D` 为大写（Shift-d）。原有 `空格 gd` 保留 Gitsigns 当前文件对比。
+
+- 文件面板中用 `j/k` 选择、回车打开；`Tab` / `Shift-Tab` 切换下一个 / 上一个文件。
+- 差异窗口中用 `]c` / `[c` 跳转下一个 / 上一个差异块，`Ctrl-h/j/k/l` 切换窗口。
+- `空格 gq` 关闭差异或历史视图，返回之前的编辑页。
+- `:DiffviewOpen HEAD` 查看相对最近提交的全部改动；`:DiffviewOpen origin/main...HEAD` 查看当前分支相对 main 分叉点的提交差异（主分支为 master 时替换名称）。
+- 查看前先保存文件；Diffview 根据磁盘和 Git 状态展示差异。
+
+更多用法见 `:help diffview.nvim` 或 [Diffview 官方文档](https://github.com/sindrets/diffview.nvim)。
 
 ## 语言与插件
 
